@@ -15,7 +15,7 @@ This tutorial outlines the steps necessary to deploy and monitor a virtual priva
 <h2>Operating Systems Used </h2>
 
 - Windows 11</b> 
-
+- Windows 10 </b>
 <img src="https://i.imgur.com/xGyF9PR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 First step is, from your host computer, browser www.whatismyipaddress.com and note the local host IP
 </p>
