@@ -16,20 +16,11 @@ This tutorial outlines the steps necessary to deploy and monitor a virtual priva
 
 - Windows 11</b> (21H2)
 
-<h2>Ticket Lifecycle Stages</h2>
 
-- Intake
-- Assignment and Communication
-- Working the Issue
-- Resolution
-
-<h2>Lifecycle Stages</h2>
-
-<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First step is, from your host computer, browser www.whatismyipaddress.com and note the local host IP. Now create and deploy a virtual machine in Microsoft Azure in a different region of the world. When deploying the VM make sure to take note of the username and password assigned to the machine. Once operational browse to www.whatismyipaddress.com and take note of it's(from here on out known as "VM1") IP address.
 </p>
 <br />
 
@@ -37,7 +28,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now you will, from the host PC, sign in or sign up for Proton VPN. From VM1 you will enter your login credentials for Proton and download the client application. Once the app is running, you will select another foreign region to browse the internet from.
 </p>
 <br />
 
@@ -45,6 +36,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once the VM has displayed that is in fact browsing in a different location, be sure to go back into your Resource Group on Azure and delete them to avoid incurring more cost.
 </p>
 <br />
